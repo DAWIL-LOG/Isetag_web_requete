@@ -1,0 +1,42 @@
+.entete{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.page{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 18px;
+    text-align: center;
+}
+.form{
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 14cm;
+    height: 15cm;
+    text-align: center;
+    border-radius: 10px;
+}
+.titre{
+    border-bottom: 5px solid black;
+}
+.info{
+    border-left: 1px solid right;
+}
+input,textarea{
+    border: 1px solid black;
+}
+.bd_mat{
+    border-radius: 8px;
+}
+.mat_slt{
+    width: 5cm;
+}
+body{
+    border: 1px solid black;
+}
