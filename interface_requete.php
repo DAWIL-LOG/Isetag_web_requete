@@ -1,6 +1,5 @@
-<?php include "connection.php";?>
-<?php
-    $query=mysqli_connect()
+<?php include "connection.php";
+    
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +15,7 @@
    <table class="entete">
         <tr class="entete">
             <td class="entete">
-                <label for="" OnClick="garder()";>Requête ISETAG</label>
+                <label for="">Requête ISETAG</label>
             </td>
             <td class="entete">
                 <img src="" alt="">
@@ -26,7 +25,11 @@
             </td>
         </tr>
     </table>
-    <form action="" method="get" class="form">
+    <form action="" method="post" class="form">
+        <?php
+        $date=$_POST['date_exam'];
+        echo $date;
+        ?>
         <label class="titre">
                 <center>
                     <u>
@@ -37,7 +40,7 @@
         </label>
         <br>
         <label for="">Date d'examen:</label>
-        <input type="date" name="" id="date_exam" ><br><br>
+        <input type="date" name="date_exam" id="date_exam" value="<?php echo date('Y-m-d', strtotime(date('Y-m-d')));?>"><br><br>
         <label for="">Semestre:</label>
         <select name="" id="semestre">
             <option value="1">1</option>
@@ -45,7 +48,14 @@
             <option value="3">3</option>
         </select><br><br>
         <label for="" class="mat_lb">Matière:</label>
-        <select name="" id="matiere" class="mat_slt"></select><br><br>
+        <select name="matiere" id="matiere" class="mat_slt">
+            <?php
+            while ($row=mysqli_fetch_array($result)) {
+               ?>
+               <option><?php echo $row[1];?></option>
+            <?php } ?>
+            <option></option>
+        </select><br><br>
         <label for="">Note reçu:</label>
         <input type="number" name="" id=""><br><br>
         <label for="">Note effective:</label>
