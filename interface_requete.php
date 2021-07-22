@@ -16,6 +16,9 @@
     <title>info_requete</title>
 </head>
 <body>
+    <h1>
+        APPLICATION DE GESTION DES REQUETES ETUDIANTS ISETAG
+    </h1>
    <table class="entete">
         <tr class="entete">
             <td class="entete">
