@@ -29,8 +29,7 @@
     </table>
     <form action="" method="post" class="form">
         <?php
-        $date=$_POST['date_exam'];
-        echo $date;
+        
         ?>
         <label class="titre">
                 <center>
