@@ -4,7 +4,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script src="interface_requete.js"></script>
+<script src="interface_requete.js">
+    
+</script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="interface_requete.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
