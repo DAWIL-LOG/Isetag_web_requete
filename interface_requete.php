@@ -28,9 +28,7 @@
         </tr>
     </table>
     <form action="" method="post" class="form">
-        <?php
-        
-        ?>
+       
         <label class="titre">
                 <center>
                     <u>
