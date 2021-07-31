@@ -1,0 +1,6 @@
+    if (!empty($_POST["matieres"])) {
+        echo '<h3> Mes matieres</h3>';
+        foreach ($_POST["matieres"] as $matiere) {
+            echo '<p>' . $matiere . '</p>';
+        }
+    }

@@ -1,0 +1,47 @@
+.entete{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.mat_list{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.page{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 18px;
+    text-align: center;
+}
+.form{
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width:12cm ;
+    height:10cm auto;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 12px;
+    padding-bottom: 12px;
+}
+.titre{
+    border-bottom: 5px solid black;
+    font-weight:bold;
+    text-decoration:underline;
+}
+.info{
+    border-left: 1px solid right;
+}
+.bd_mat{
+    width: 2cm;
+}
+.mat_slt{
+    width: 5cm;
+}
+body{
+    border: 1px solid black;
+}
